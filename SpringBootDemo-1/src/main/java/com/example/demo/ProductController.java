@@ -12,5 +12,10 @@ public class ProductController {
 	public String CreatProduct() {
 		return "welcome to springboot with pcf";
 	}
+	@GetMapping(value = "/product")
+	public String getProduct() {
+		return "welcome to springboot with pcf";
+	}
+	
 
 }
