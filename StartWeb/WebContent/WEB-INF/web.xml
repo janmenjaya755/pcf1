@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<welcome-file-list>
+		<welcome-file>
+			welcome.html
+		</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>loginServlet</servlet-name>
+		<servlet-class>java4s.DisplayServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>loginServlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+</web-app>
