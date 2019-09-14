@@ -17,7 +17,7 @@ public class ProductController {
 		return "welcome to springboot with pcf i am in marlabs.hellllllllllllooooo";
 	}
 	public void delete() {
-		
+		System.out.println();
 	}
 	
 
