@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @Configuration
 @EnableAutoConfiguration
 
-@EntityScan("persistence.domain")
+@EntityScan("persistence.domain occur")
 @EnableJpaRepositories("persistence.repository")
 @SpringBootApplication
 public class SpringBootCurd1Application {
