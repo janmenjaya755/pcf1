@@ -10,7 +10,7 @@ public class ProductController {
 	
 	@GetMapping(value = "/prduct")
 	public String CreatProduct() {
-		return "welcome to springboot with pcf cloud hiiiiiiiiiiiiii";
+		return "welcome to springboot with pcf cloud hiii";
 	}
 	@GetMapping(value = "/product")
 	public String getProduct() {
