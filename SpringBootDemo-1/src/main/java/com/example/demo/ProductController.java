@@ -14,7 +14,7 @@ public class ProductController {
 	}
 	@GetMapping(value = "/product")
 	public String getProduct() {
-		return "welcome to springboot with pcf i am in marlabs.hellllllllllllooooo";
+		return "welcome to springboot with pcf i am in marlabs.helooooo";
 	}
 	public void delete() {
 		System.out.println();
